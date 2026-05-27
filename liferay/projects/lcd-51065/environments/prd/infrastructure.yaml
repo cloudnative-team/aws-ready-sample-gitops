@@ -1,0 +1,8 @@
+database:
+    instanceClass: db.t4g.medium
+    storageGB: 20
+search:
+    opensearch:
+        instanceType: t3.small.search
+        nodeCount: 1
+        volumeSize: 20

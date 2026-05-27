@@ -1,0 +1,8 @@
+liferay-default:
+    network:
+        enabled: true
+    overlay:
+        enabled: false
+    replicaCount: 1
+    structuredLogging:
+        enabled: true

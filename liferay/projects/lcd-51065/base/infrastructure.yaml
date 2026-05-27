@@ -1,0 +1,10 @@
+backup:
+    enabled: false
+database:
+    deletionProtection: false
+deletionProtection: false
+forceDestroy: true
+license:
+    externalSecretName: liferay-license
+    targetSecretName: liferay-license
+orphanOnDelete: false

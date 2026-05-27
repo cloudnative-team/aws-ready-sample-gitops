@@ -1,0 +1,7 @@
+clusterBootstrap:
+    enabled: true
+gateway:
+    enabled: true
+    internetFacing: true
+providers:
+    enabled: true
