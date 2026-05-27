@@ -5,6 +5,6 @@ database:
 deletionProtection: false
 forceDestroy: true
 license:
-    externalSecretName: liferay-license
+    externalSecretName: mylicense
     targetSecretName: liferay-license
 orphanOnDelete: false
