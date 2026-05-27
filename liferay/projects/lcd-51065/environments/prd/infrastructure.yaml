@@ -3,6 +3,7 @@ database:
     storageGB: 20
 search:
     opensearch:
+        enabled: true
+        instanceCount: 1
         instanceType: t3.small.search
-        nodeCount: 1
-        volumeSize: 20
+        volumeSizeGB: 20
