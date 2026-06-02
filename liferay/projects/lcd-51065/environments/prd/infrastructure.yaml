@@ -4,6 +4,6 @@ database:
 search:
     opensearch:
         enabled: true
-        instanceCount: 1
+        instanceCount: 2
         instanceType: t3.small.search
         volumeSizeGB: 20
