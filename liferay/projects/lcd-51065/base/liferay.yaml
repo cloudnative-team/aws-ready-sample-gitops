@@ -2,7 +2,10 @@ liferay-default:
     network:
         enabled: true
     overlay:
-        enabled: false
+        copy:
+            -   from: test-overlay/configs
+                into: osgi/configs
+        enabled: true
     replicaCount: 1
     structuredLogging:
         enabled: true
